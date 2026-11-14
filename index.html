@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signal fr</title>
+</head>
+
+<style>
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: monospace;
+	letter-spacing: 0.025em;
+	max-height: 2;
+	min-height: auto;
+	color: #000000;
+	background-color: #4460CF;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+article {
+	width: 90%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	padding: 2em;
+	background-color: #c0c0c0;
+	border-left: 5px solid #eee;
+	border-top: 5px solid #eee;
+	border-right: 5px solid #444;
+	border-bottom: 5px solid #444;
+	font-size: 5mm;
+	position: relative;
+	& > * + * {
+		margin-top: 1.25em;
+	}
+
+	&:after {
+		content: "X";
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		line-height: 1;
+		padding-bottom: 0.25em;
+		padding-top: 0.25em;
+		position: absolute;
+		top: 1.5em;
+		right: 1.5em;
+		width: 1.5em;
+		height: 1.5em;
+		background-color: #c0c0c0;
+		border-left: 2px solid #eee;
+		border-top: 2px solid #eee;
+		border-right: 2px solid #444;
+		border-bottom: 2px solid #444;
+	}
+}
+
+.headline {
+	font-size: 5.5vw;
+	font-weight: 700;
+}
+
+.subhead {
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+
+.stickynote {
+	img {
+		max-height: 200px;
+		height: auto;
+
+		&:nth-of-type(odd) {
+			float: right;
+		}
+		&:nth-of-type(even) {
+			float: left;
+			margin-left: 1.5em;
+			margin-right: -3em;
+			box-shadow: -2px 2px 20px #000000;
+		}
+	
+	}
+}
+
+.article-meta {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+	.avatar {
+		img {
+			border-radius: 50%;
+			max-height: 55px;
+			height: auto;
+		}
+	}
+}
+
+aside {
+	padding: 1em;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	border-left: 1px solid #444;
+	border-top: 1px solid #444;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+h2:not(.subhead) {
+	padding-bottom: 0.375em;
+	box-shadow: 0 1px 0 0 #444, 0 2px 0 0 #eee;
+}
+
+figure {
+	background-color: #c0c0c0;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	width: calc(100% + 1.5em + 2em);
+	@media (min-width: 400px) {
+		max-width: 50%;
+	}
+	&:nth-of-type(odd) {
+		float: left;
+		margin-right: 1.5em;
+		margin-left: -3em;
+		box-shadow: 2px 2px 20px #000000;
+	}
+
+	&:nth-of-type(even) {
+		float: right;
+		margin-left: 1.5em;
+		margin-right: -3em;
+		box-shadow: -2px 2px 20px #000000;
+	}
+}
+
+.bytime {
+	line-height: 10px;
+	max-line-height: auto;
+	flex-wrap: wrap;
+	margin-left: 20px;
+}
+
+</style>
+
+<article>
+	<div class="stickynote">
+				<img src="https://i.postimg.cc/R0TXCD3h/yourcomputer-removebg-preview.png">
+	<h1 class="headline">Signal Online</h1>
+	</div>
+	<h2 class="subhead">Things about me etc. etc. :)</h2>
+
+	<div class="article-meta">
+		<div class="avatar">
+			<img src="https://i.postimg.cc/VsTTVjMn/nosignal.jpg" alt="avatar">
+		</div>
+		<div class="bytime">
+			<p>from Signal himself</p>
+			<p>Last updated: July 23rd, 2026</p>
+		</div>	
+			
+		</p>
+	</div>
+
+
+
+	<p>Hello hello. Welcome to my page. Here you'll find stuff about me, ways to contact me, my likes and dislikes, and be able to sign my guestbook. If any of that interests you, scroll down some and click on any of my links!</p>
+
+	<aside>
+		<p><i>Because you know a harness was only made for one..</i></p>
+	</aside>
+
+	<figure>
+		<a href="contact.html">
+			<img src="https://i.postimg.cc/jdN8wS1m/contact-me.png">
+		</a>
+	</figure>
+
+	<p>Want to reach out? Check me out here. I've got my email and discord... plus my blank github. At least I made this page myself!</p>
+	<p>Contact me for anything. Want to make sure I update my page? Have professional inqueries? Hell, even if you just want to pester me while I'm working. This contact is here for anything :)</p> 
+
+	<h2>About me</h2>
+	
+	<figure>
+		<a href="aboutme.html">
+			<img src="https://i.postimg.cc/xdM5VYq2/about-me.png"/>
+		</a>
+	</figure>
+
+	<p>Click here to learn a little about me. Parts of my identity and all that. Note that this is just stuff I share online. Good luck getting anything irl out of me lol</p>
+
+	<h2>Likes, Dislikes, more of those things</h2>
+
+	<figure>
+		<a href="WIP.html">
+			<img src="https://i.postimg.cc/s2LQVH0R/likes-dislikes.png">
+		</a>
+	</figure>
+
+	<p>Learn a little more about me. Check out my likes, dislikes, and uhhhh whatever i put here later. Probably some of my professional projects if i end up doing that.</p>
+
+	<h2>Guest book!!!!</h2>
+
+	<figure>
+		<a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-41792-25">
+			<img src="https://i.postimg.cc/Cxf9PRTN/guestbook.png">
+		</a>
+	</figure>
+
+	<p>I set up my guest book and I want more people to use it. Look at it and leave me a message.</p>
+
+	<h2>That's it :^)</h2>
+
+	<p>This is everything for right now. It'll be a while before everything is finished, but when it's up, it's gonna be perfect. TRUST!!!<br /><small><small><small>-Signal</small></small></small></p>
+
+	<div class="stickynote">
+		<img src="https://i.postimg.cc/cJWFSSLR/sniffnetwork-removebg-preview.png">
+	</div>
+
+</article>
+
+</html>

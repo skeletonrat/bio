@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signal contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: monospace;
+	letter-spacing: 0.025em;
+	max-height: 2;
+	min-height: auto;
+	color: #000000;
+	background-color: #4460CF;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+article {
+	width: 90%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	padding: 2em;
+	background-color: #c0c0c0;
+	border-left: 5px solid #eee;
+	border-top: 5px solid #eee;
+	border-right: 5px solid #444;
+	border-bottom: 5px solid #444;
+	font-size: 5mm;
+	position: relative;
+	& > * + * {
+		margin-top: 1.25em;
+	}
+
+	&:after {
+		content: "X";
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		line-height: 1;
+		padding-bottom: 0.25em;
+		padding-top: 0.25em;
+		position: absolute;
+		top: 1.5em;
+		right: 1.5em;
+		width: 1.5em;
+		height: 1.5em;
+		background-color: #c0c0c0;
+		border-left: 2px solid #eee;
+		border-top: 2px solid #eee;
+		border-right: 2px solid #444;
+		border-bottom: 2px solid #444;
+	}
+}
+
+.headline {
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+.subhead {
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+
+.stickynote {
+	img {
+		max-height: 200px;
+		height: auto;
+
+		&:nth-of-type(odd) {
+			float: right;
+		}
+		&:nth-of-type(even) {
+			float: left;
+			margin-left: 1.5em;
+			margin-right: -3em;
+			box-shadow: -2px 2px 20px #000000;
+		}
+	
+	}
+}
+
+.article-meta {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+	img {
+		border-radius: 50%;
+		max-height: 70px;
+		height: auto;
+	}
+
+}
+
+h2:not(.subhead) {
+	padding-bottom: 0.375em;
+	box-shadow: 0 1px 0 0 #444, 0 2px 0 0 #eee;
+}
+
+figure {
+	background-color: #c0c0c0;
+	box-shadow: 0 0 0 1px #eee, 0 0 0 2px #c0c0c0, 0 0 0 3px #444;
+	position: relative;
+	margin-bottom: 0;
+	width: calc(100% + 1.5em + 2em);
+	@media (min-width: 400px) {
+		max-width: 50%;
+	}
+	&:nth-of-type(even) {
+		float: left;
+		margin-right: 1.5em;
+		margin-left: -3em;
+	}
+
+	&:nth-of-type(odd) {
+		float: right;
+		margin-left: 1.5em;
+		margin-right: -3em;
+	}
+}
+
+.bytime {
+	line-height: 10px;
+	max-line-height: auto;
+	flex-wrap: wrap;
+	margin-left: 20px;
+}
+
+</style>
+
+<article>
+	<h1 class="headline">Signal Contact</h1>
+	<h2 class="subhead">Ways to contact me :P</h2>
+	<div class="article-meta">
+		<img src="https://i.postimg.cc/VsTTVjMn/nosignal.jpg" alt="avatar">
+		<div class="bytime">
+			<p>from Signal himself</p>
+			<p>Last updated: July 13th, 2026</p>
+		</div>
+		</p>
+	</div>
+	<p>Here's a bunch of ways you can reach me. No phone number or professional email for you lolll</p>
+					
+	<figure>
+		<a href="mailto:skeletnrat@gmail.com">
+			<img src="https://i.postimg.cc/kgRZxw5n/weird-email.png">
+		</a>
+	</figure>
+
+	<ul>
+		<li>
+			<p>FRQ me on <a href="https://discordapp.com/users/1038145650480664606">Discord</a></p>
+		</li>
+		<li>
+			<p>Add me on <a href="https://signal.me/#eu/gaoMwIFVgJXN4HCESkUuDlGayify6gTgLvANa0SDLtAidtuD819Cc5gupXx_xE1G">Signal</a> <small><small>lol. signal.</small></small></p>
+		</li>
+		<li>
+			<p>Want to see my empty <a href="https://github.com/skeletonrat">GitHub</a>?</p>
+		</li>
+		<li>
+			<p>Or click the box to email me, if that's your thing</p>
+		</li>
+	</ul>
+
+	<h2>Other ways...</h2>
+	
+	<figure>
+		<img src="https://i.postimg.cc/CKnRpR4B/ask-contact.png"/>
+	</figure>
+
+	<p>If you have another preferred method, reach out to me here first and I'll give you other contact methods :)</p>
+
+	<h2>That's it :^)</h2>
+
+	<figure>
+		<a href="index.html">
+			<img src="https://i.postimg.cc/dVbqd48t/home-button.png">
+		</a>
+	</figure>
+
+	<p>Nothing else I can tell you here I think. Click here to go back to the home page<br /><small><small><small>-Signal</small></small></small></p>
+
+</article>
+
+</html>
